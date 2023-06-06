@@ -1,0 +1,10 @@
+Starman
+
+shadow-intensity="1" camera-orbit="96.7deg 81.99deg 64.82m" field-of-view="30deg"
+
+
+Cat
+
+shadow-intensity="1" camera-orbit="86.8deg 77.91deg 1.155m" field-of-view="30deg"
+
+
