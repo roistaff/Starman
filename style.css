@@ -138,7 +138,7 @@ model-viewer {
   justify-content: right;
 }
 .flex li{
-    margin-right:20px;
+    margin-left:15px;
 }
 @media (prefers-color-scheme: dark) {
     :root {
