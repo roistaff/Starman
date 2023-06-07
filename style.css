@@ -132,14 +132,10 @@ model-viewer {
   display:flex;
   justify-content: space-between;
 }
-.flex ul{
-    list-style:none;
-    display:flex;
-  justify-content: right;
-}
-.flex li{
-    margin-left:15px;
-}
+#title{
+    text-arigin: center;}
+
+
 @media (prefers-color-scheme: dark) {
     :root {
         --light: #222;
