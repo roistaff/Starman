@@ -7,4 +7,5 @@ Cat
 
 shadow-intensity="1" camera-orbit="86.8deg 77.91deg 1.155m" field-of-view="30deg"
 
+Bero_Cat
 

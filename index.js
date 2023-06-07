@@ -5,18 +5,30 @@ function rename(name){
   nameoutput.textContent = name;
   modelname.title = name;
 }
+function Bero_Cat(){
+  rename("Bero_Cat");
+  model.src = "Bero_Cat.glb";
+  model.removeAttribute("camera-orbit");
+  model.removeAttribute("poster");
+  model.setAttribute("camrea-orbit","92.56deg 90.54deg 0.4856m") ;
+  model.setAttribute("poster","Bero_Cat.webp");
+}
 function Cat(){
   rename("Cat");
-  model.src = "https://raw.githubusercontent.com/roistaff/Starman/main/Cat.glb";
-  model.getAttribute("camrea-orbit") = "86.8deg 77.91deg 1.155m" ;
-  model.getAttribute("poster") = "https://raw.githubusercontent.com/roistaff/Starman/main/Cat.webp";
+  model.src = "Cat.glb";
+  model.removeAttribute("camera-orbit");
+  model.removeAttribute("poster");
+  model.setAttribute("camrea-orbit","86.8deg 77.91deg 1.155m")  ;
+  model.setAttribute("poster","Cat.webp");
 }
 
 function Starman(){
   rename("Starman");
-  model.src = "https://raw.githubusercontent.com/roistaff/Starman/main/Starman.glb";
-  model.getAttribute("camrea-orbit") = "96.7deg 81.99deg 64.82m" ;
-  model.getAttribute("poster") = "https://raw.githubusercontent.com/roistaff/Starman/main/Starman.webp";
+  model.src = "Starman.glb";
+  model.removeAttribute("camera-orbit");
+  model.removeAttribute("poster");
+  model.setAttribute("camrea-orbit","96.7deg 81.99deg 64.82m")  ;
+  model.setAttribute("poster","Starman.webp");
 }
 function main(){
    let modelname = model.dataset.title;

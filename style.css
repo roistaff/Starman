@@ -130,7 +130,15 @@ model-viewer {
 }
 .flex{
   display:flex;
-  justify-content: space-around;
+  justify-content: space-between;
+}
+.flex ul{
+    list-style:none;
+    display:flex;
+  justify-content: right;
+}
+.flex li{
+    margin-right:20px;
 }
 @media (prefers-color-scheme: dark) {
     :root {
