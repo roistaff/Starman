@@ -13,6 +13,14 @@ function Bero_Cat(){
   model.setAttribute("camrea-orbit","92.56deg 90.54deg 0.4856m") ;
   model.setAttribute("poster","Bero_Cat.webp");
 }
+function Artist_face(){
+  rename("Artist_face");
+  model.src = "Artist_face.glb";
+  model.removeAttribute("camera-orbit");
+  model.removeAttribute("poster");
+  model.setAttribute("camrea-orbit","450.4deg 90.73deg 1.785m") ;
+  model.setAttribute("poster","Artist_face.webp");
+}
 function Cat(){
   rename("Cat");
   model.src = "Cat.glb";
