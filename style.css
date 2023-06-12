@@ -130,13 +130,13 @@ model-viewer {
 }
 .flex{
   display:flex;
+  flex-wrap:wrap;
   justify-content: space-between;
 }
 .title{
-    text-arigin: center;
-    }
-
-
+    text-align: center;
+    padding:5px;
+}
 @media (prefers-color-scheme: dark) {
     :root {
         --light: #222;
