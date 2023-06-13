@@ -130,7 +130,7 @@ model-viewer {
 }
 .flex{
   display:flex;
-  margin-bottom:5px;
+  padding-bottom:5px;
   flex-wrap:wrap;
   justify-content: space-around;
 }
