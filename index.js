@@ -21,6 +21,14 @@ function CAT(){
   model.setAttribute("camrea-orbit","123.5deg 83.16deg 5.087m") ;
   model.setAttribute("poster","CAT.webp");
 }
+function Japan_Boy(){
+  rename("Japan_Boy");
+  model.src = "Japan_Boy.glb";
+  model.removeAttribute("camera-orbit");
+  model.removeAttribute("poster");
+  model.setAttribute("camrea-orbit","94.37deg 82.57deg 3.115m") ;
+  model.setAttribute("poster","Japan_Boy.webp");
+}
 function Artist_face(){
   rename("Artist_face");
   model.src = "Artist_face.glb";
