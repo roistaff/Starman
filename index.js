@@ -62,8 +62,37 @@ function Starman(){
   model.setAttribute("camrea-orbit","96.7deg 81.99deg 64.82m")  ;
   model.setAttribute("poster","Starman.webp");
 }
-function main(){
-   let modelname = model.dataset.title;
-  rename(modelname);
+const artlist = ["Starman","Cat","Japan_Boy","himawari","Artist_face","Bero_Cat","CAT"];
+let listnum = 0;
+function select(name){
+  if(name == "Starman"){
+    Starman();
+  }else if(name == "Cat"){
+    Cat();
+  }else if(name == "Japan_Boy"){
+    Japan_Boy();
+  }else if(name == "himawari"){
+    himawari();
+  }else if(name == "Artist_face"){
+    Artist_face();
+  }else if(name == "Bero_Cat"){
+    Bero_Cat();
+  }else if(name == "CAT"){
+    CAT();
+  }
 }
-window.onload = main ;
+function back(){
+  if (listnum != 0){
+  listnum = listnum -1 ;
+  }
+  select(artlist[listnum])
+}
+function next(){
+  if (listnum != artlist.length -1){
+  listnum = listnum +1 ;}
+  select(artlist[listnum])
+}
+function main(){
+  rename("Starman");
+}
+window.onload = main;
