@@ -5,6 +5,14 @@ function rename(name){
   nameoutput.textContent = name;
   modelname.title = name;
 }
+function himawari(){
+  rename("himawari");
+  model.src = "himawari.glb";
+  model.removeAttribute("camera-orbit");
+  model.removeAttribute("poster");
+  model.setAttribute("camrea-orbit","87.96deg 81.99deg 1.968m") ;
+  model.setAttribute("poster","himawari.webp");
+}
 function Bero_Cat(){
   rename("Bero_Cat");
   model.src = "Bero_Cat.glb";
