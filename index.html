@@ -1,21 +1,32 @@
 <!DOCTYPE html>
-<html lang="ja" >
+<html lang="ja" prefix="og:http://ogp.me/ns#" >
 <head>
   <meta charset="UTF-8">
-  <title>3D Voxel art</title>
+  <title>Starman</title>
   <link rel="stylesheet" href="style.css">
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <meta name="description" content="web display of voxel art by Staff Roi.">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+   <meta property="og:url" content="https://starman.onrender.com">
+   <meta property="og:description" content="web display of voxel art by Stsff Roi">
+   <meta property="og:dtitle" content="Starman">
+   <meta property="og:type" content="Web display">
+   <meta property="og:image" content="https://starmnan.onrender.com/Starman.webp">
+   <meta name="twitter:card" content="summary_large_image">
+   <meta name="twitter:site" content="@roi_staff">
 </head>
 <body>
     <div class="main">
-      <script type="module"  src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
-      <model-viewer id="model" data-title="Starman" src="Starman.glb" shadow-intensity="1" camera-orbit="96.7deg 81.99deg 64.82m" field-of-view="30deg" ar="" ar-modes="webxr scene-viewer quick-look" camera-controls="" poster="https://raw.githubusercontent.com/roistaff/Starman/main/Starman.webp" auto-rotate="" quick-look-browsers="safari chrome" ar-status="not-presenting">
+      <script type="module"  src="model-viewer.min.js"></script>
+      <model-viewer id="model" data-title="Starman" autoplay ar src="Starman.glb" shadow-intensity="1" camera-orbit="96.7deg 81.99deg 64.82m" field-of-view="30deg" ar="" ar-modes="webxr scene-viewer quick-look" camera-controls="" poster="Starman.webp" auto-rotate="" quick-look-browsers="safari chrome" ar-status="not-presenting">
       </model-viewer>
 <div class="flex">
   <button onclick="back()">Back</button>
   <p id="title" class="title"></p>
   <button onclick="next()">Next</button>
 </div>
+<p class="title"><a href="https://roistaff.github.io/">about creater</a></p>
     </div>
     <script src="index.js"></script>
 </body>

@@ -47,7 +47,7 @@ function Artist_face(){
 }
 function Cat(){
   rename("Cat");
-  model.src = "Cat.glb";
+  model.src = "Cat2.glb";
   model.removeAttribute("camera-orbit");
   model.removeAttribute("poster");
   model.setAttribute("camrea-orbit","86.8deg 77.91deg 1.155m")  ;
